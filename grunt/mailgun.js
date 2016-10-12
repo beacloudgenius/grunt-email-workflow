@@ -10,5 +10,5 @@ module.exports = function(grunt) {
       },
       src: ['<%= paths.dist %>/'+grunt.option('template')]
     }
-  }
+  };
 };

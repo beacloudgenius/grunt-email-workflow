@@ -11,7 +11,8 @@ default:
 # Use grunt send if you want to actually send the email to your inbox
 # $ grunt send --template=transaction.html
 send:
-  - 'mailgun'
+  - 'mandrill'
+#  - 'mailgun'
 
 # Upload images to your CDN on Rackspace Cloud Files
 # $ grunt rsupload
